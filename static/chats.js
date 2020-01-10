@@ -1,1 +1,1 @@
-console.log("sveciens no konsoles")
+console.log("Sveciens no konsoles")
