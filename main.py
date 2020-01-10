@@ -20,19 +20,12 @@ def ielasit_chatu():
       chata_rindas.append(rinda)
   return jsonify({"chats":chata_rindas})
 
-@app.route('/chats/suti', method=['POST'])
+@app.route('/chats/suti', methods=['POST'])
 def sutit_zinu():
   dati = request.json
   with open ("chats.txt", "a", newline="") as f:
     f.write(dati["chats"] + "\n")
   return ielasit_chatu()
-
-# @app.route('/chats/suti', methods = ['POST'])
-# def suutiit_zinju():
-#   dati = request.json
-#   with open("chats.txt", "a", newline="") as f:
-#     f.write(dati["chats"] + "\n")
-#   return ielasit_chatu()
 
 if __name__ == '__main__':
     # Threaded option to enable multiple instances for multiple user access support
