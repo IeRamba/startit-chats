@@ -4,8 +4,8 @@ async function lasiChatu(){  // await darbojas tikai async funkcijās
     const atbilde = await fetch('/chats/lasi');
     const datuObjekts = await atbilde.json();
     raadiChatuVienk(datuObjekts);
-    // await new Promise(resolve => setTimeout(resolve, ATJAUNOT));
-    // await lasiChatu();
+    await new Promise(resolve => setTimeout(resolve, ATJAUNOT));
+    await lasiChatu();
 }
 
 function raadiChatuVienk(dati){
