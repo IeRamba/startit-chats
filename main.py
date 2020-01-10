@@ -6,7 +6,7 @@ app = Flask('app')
 
 @app.route('/')
 def index_page():
-  return "Sveiciens no StartIT, mēģinām vēlreiz!"
+  return "Sveiciens no StartIT, nu kas tas ir!"
 
 
 if __name__ == '__main__':
