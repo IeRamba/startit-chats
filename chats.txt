@@ -1,1 +1,7 @@
 {"vards": "Serveris", "zinja": "Sākam jaunu, skaistu dzīvi!"}
+{"vards": "Viesis", "zinja": "\u010data zi\u0146a"}
+{"vards": "Ieva", "zinja": "Viesis k\u013cuva par Ieva"}
+{"vards": "Ieva", "zinja": "\u010cau, s\u012bkie!"}
+{"vards": "Ieva", "zinja": "Pieejam\u0101s komandas : \"/vards JaunaisVards\", \"/palidziba\", \"/versija\""}
+{"vards": "Annika", "zinja": "Ieva k\u013cuva par Annika"}
+{"vards": "Annika", "zinja": "un tagad?"}
