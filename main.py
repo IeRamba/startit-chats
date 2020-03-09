@@ -20,7 +20,7 @@ def index_lapa():
   return render_template('chats.html')
 
 @app.route('/postgreSQL')
-def postgreSQL():
+def postgresSQL():
   result = test.query.all()
   return '%r' % result
 
